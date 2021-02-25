@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body style='font-size: 30px;'>
+  <h1 class="text-center m-4">
+    SHEELOVE'S HANGMAN
+  </h1>
+    <div class='container d-flex'>
+        <div>
+            <div id='hangman'><img id="hang" src="./images/gallows-0.jpg" /></div>
+        </div>
+        <div class='pt-5 keyboard'>
+            <div class='keyboard-row'>
+                <span class='border rounded border-secondary px-2 key' id="A">A</span>
+                <span class='border rounded border-secondary px-2 key' id="B">B</span>
+                <span class='border rounded border-secondary px-2 key' id="C">C</span>
+                <span class='border rounded border-secondary px-2 key' id="D">D</span>
+                <span class='border rounded border-secondary px-2 key' id="E">E</span>
+                <span class='border rounded border-secondary px-2 key' id="F">F</span>
+                <span class='border rounded border-secondary px-2 key' id="G">G</span>
+                <span class='border rounded border-secondary px-2 key' id="H">H</span>
+                <span class='border rounded border-secondary px-2 key' id="I">I</span>
+                <span class='border rounded border-secondary px-2 key' id="J">J</span>
+            </div>
+            <div class='keyboard-row'>
+                <span class='border rounded border-secondary px-2 key' id="L">L</span>
+                <span class='border rounded border-secondary px-2 key' id="K">K</span>
+                <span class='border rounded border-secondary px-2 key' id="M">M</span>
+                <span class='border rounded border-secondary px-2 key' id="N">N</span>
+                <span class='border rounded border-secondary px-2 key' id="O">O</span>
+                <span class='border rounded border-secondary px-2 key' id="P">P</span>
+                <span class='border rounded border-secondary px-2 key' id="Q">Q</span>
+                <span class='border rounded border-secondary px-2 key' id="R">R</span>
+                <span class='border rounded border-secondary px-2 key' id="S">S</span>
+                <span class='border rounded border-secondary px-2 key' id="T">T</span>
+            </div>
+            <div class='keyboard-row'>
+                <span class='border rounded border-secondary px-2 key' id="U">U</span>
+                <span class='border rounded border-secondary px-2 key' id="V">V</span>
+                <span class='border rounded border-secondary px-2 key' id="W">W</span>
+                <span class='border rounded border-secondary px-2 key' id="X">X</span>
+                <span class='border rounded border-secondary px-2 key' id="Y">Y</span>
+                <span class='border rounded border-secondary px-2 key' id="Z">Z</span>
+            </div>
+            <div class="blank pt-5"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
